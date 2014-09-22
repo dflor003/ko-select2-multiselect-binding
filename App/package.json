@@ -1,0 +1,16 @@
+{
+  "name": "ko-select2-multi-binding",
+  "version": "0.1.0",
+  "description": "A KnockoutJS Binding Handler for select2 multiselect options.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dflor003@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5"
+  }
+}

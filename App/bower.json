@@ -1,0 +1,27 @@
+{
+  "name": "ko-select2-multi-binding",
+  "version": "0.1.0",
+  "authors": [
+    "Danil Flores <dflor003@gmail.com>"
+  ],
+  "description": "A KnockoutJS Binding Handler for select2 multiselect options.",
+  "keywords": [
+    "knockoutjs",
+    "select2",
+    "multiselect"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockoutjs": "~3.2.0",
+    "select2": "~3.5.1",
+    "jquery": "~2.1.1",
+    "jasmine": "~2.0.4"
+  }
+}
