@@ -22,6 +22,15 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="karma.conf.js" />
+    <Content Include="scripts\lib\jasmine-jquery\Gruntfile.js" />
+    <Content Include="scripts\lib\jasmine-jquery\lib\jasmine-jquery.js" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\fixture_with_javascript.html" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\fixture_with_javascript_block.html" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\javascripts\jasmine_javascript_click.js" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\javascripts\jasmine_javascript_hover.js" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\real_non_mocked_fixture.html" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\real_non_mocked_fixture_style.css" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\suites\jasmine-jquery-spec.js" />
     <Content Include="scripts\lib\jasmine\.gitignore" />
     <Content Include="scripts\lib\jasmine\.gitmodules" />
     <Content Include="scripts\lib\jasmine\Gruntfile.js" />
@@ -430,6 +439,13 @@
     <Content Include="scripts\lib\jasmine\travis-docs-script.sh" />
     <Content Include="scripts\lib\jasmine\travis-node-script.sh" />
     <Content Include="packages.config" />
+    <Content Include="scripts\lib\jasmine-jquery\.bower.json" />
+    <Content Include="scripts\lib\jasmine-jquery\bower.json" />
+    <Content Include="scripts\lib\jasmine-jquery\CONTRIBUTING.md" />
+    <Content Include="scripts\lib\jasmine-jquery\MIT.LICENSE" />
+    <Content Include="scripts\lib\jasmine-jquery\package.json" />
+    <Content Include="scripts\lib\jasmine-jquery\README.md" />
+    <Content Include="scripts\lib\jasmine-jquery\spec\fixtures\json\jasmine_json_test.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -439,14 +455,14 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\src\multi-select-bindinghandler.ts" />
+    <TypeScriptCompile Include="scripts\tests\mult-select-bindinghandler-tests.ts" />
+    <TypeScriptCompile Include="scripts\typings\jasmine-jquery\jasmine-jquery.d.ts" />
     <TypeScriptCompile Include="scripts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="scripts\typings\knockout\knockout.d.ts" />
     <TypeScriptCompile Include="scripts\typings\select2\select2.d.ts" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\tests\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

@@ -186,3 +186,4 @@ FakesAssemblies/
 /App/scripts/typings
 *.map
 /App/scripts/src/*.js
+/App/scripts/tests/*.js
